@@ -10,8 +10,6 @@ def CPF_Formating(CPF):
     CPF_List.insert(5, '-')
     return ''.join(map(str, CPF_List))
 
-    return
-
 for i, nome in enumerate(orcinhos_df['Nomes']):
     matricula = str(orcinhos_df.loc[i, 'Matrícula'])
     RG = str(orcinhos_df.loc[i, 'RG'])
